@@ -1,0 +1,12 @@
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\bin\Debug\net8.0\TelecommunicationWebApp.Domain.deps.json
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\bin\Debug\net8.0\TelecommunicationWebApp.Domain.dll
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\bin\Debug\net8.0\TelecommunicationWebApp.Domain.pdb
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.AssemblyInfoInputs.cache
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.AssemblyInfo.cs
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.csproj.CoreCompileInputs.cache
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.sourcelink.json
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.dll
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\refint\TelecommunicationWebApp.Domain.dll
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\TelecommunicationWebApp.Domain.pdb
+D:\Users\Stefan\VisualStudioRepos\COMTRADE_TEST\Project\TelecommunicationWebApp.Domain\obj\Debug\net8.0\ref\TelecommunicationWebApp.Domain.dll
