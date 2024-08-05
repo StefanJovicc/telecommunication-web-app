@@ -63,5 +63,11 @@ namespace TelecommunicationWebApp.DataAccess
 
             return base.SaveChanges();
         }
+
+        public DbSet<Role> Roles {  get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<ErrorLog> ErrorLogs { get; set; }
+        public DbSet<UseCaseLog> UseCaseLogs { get; set; }
     }
 }
