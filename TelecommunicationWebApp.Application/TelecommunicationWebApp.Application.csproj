@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TelecommunicationWebApp.DataAccess\TelecommunicationWebApp.DataAccess.csproj" />
+    <ProjectReference Include="..\TelecommunicationWebApp.Domain\TelecommunicationWebApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\" />
+    <Folder Include="UseCases\Commands\" />
+    <Folder Include="UseCases\Queries\" />
+  </ItemGroup>
+
+</Project>
