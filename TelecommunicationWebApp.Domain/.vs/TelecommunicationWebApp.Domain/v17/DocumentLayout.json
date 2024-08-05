@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\telecommunicationwebapp.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TelecommunicationWebApp.DataAccess",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-05T02:23:02.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Entity.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\Entity.cs",
               "RelativeDocumentMoniker": "Entity.cs",
               "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\Entity.cs",
               "RelativeToolTip": "Entity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T02:05:34.791Z",
               "EditorCaption": ""
