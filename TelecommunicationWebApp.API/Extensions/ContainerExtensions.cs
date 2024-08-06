@@ -1,4 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
+using TelecommunicationWebApp.Application;
+using TelecommunicationWebApp.Implementation;
+using TelecommunicationWebApp.Implementation.Logging.UseCases;
 
 namespace TelecommunicationWebApp.API.Extensions
 {
@@ -7,7 +10,8 @@ namespace TelecommunicationWebApp.API.Extensions
         public static void AddUseCases(this IServiceCollection services)
         {
             // Add every use case and validator
-            // Also use case handler and logger
+            services.AddTransient<UseCaseHandler>();
+            services.AddTransient<IUseCaseLogger, SPUseCaseLogger>();
         }
 
         public static Guid? GetTokenId(this HttpRequest request)

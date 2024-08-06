@@ -22,5 +22,10 @@ namespace TelecommunicationWebApp.Domain
         public Address Office { get; set; }
         public User Spouse { get; set; }
         public ICollection<User> SpouseUsers { get; set; } = new HashSet<User>();
+        public Employee Employee { get; set; }
+        public ICollection<UserUseCase> UseCases { get; set; }
+        public ICollection<IssuedDiscount> RecievedDiscounts { get; set; }
+        public ICollection<Purchase> Purchases { get; set; }
+        public ICollection<UserColor> FavoriteColors { get; set; }
     }
 }

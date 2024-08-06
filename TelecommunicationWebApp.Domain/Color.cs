@@ -9,5 +9,7 @@ namespace TelecommunicationWebApp.Domain
     public class Color : Entity
     {
         public string Name { get; set; }
+
+        public ICollection<UserColor> UsersFavorite { get; set; }
     }
 }

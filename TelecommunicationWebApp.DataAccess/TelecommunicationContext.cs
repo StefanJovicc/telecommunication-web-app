@@ -79,5 +79,10 @@ namespace TelecommunicationWebApp.DataAccess
         public DbSet<Service> Services { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Employee> Employees { get; set; } 
+        public DbSet<UserUseCase> UserUseCases { get; set; }
+        public DbSet<IssuedDiscount> IssuedDiscounts { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<UserColor> UsersColors { get; set; }
     }
 }

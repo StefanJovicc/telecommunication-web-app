@@ -124,6 +124,44 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.ToTable("Colors");
                 });
 
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Employee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("Salary")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Employees");
+                });
+
             modelBuilder.Entity("TelecommunicationWebApp.Domain.ErrorLog", b =>
                 {
                     b.Property<Guid>("ErrorId")
@@ -144,6 +182,81 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.HasKey("ErrorId");
 
                     b.ToTable("ErrorLogs");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.IssuedDiscount", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ExpirationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("Used")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("IssuedDiscounts");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Purchase", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DiscountId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ServiceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("DiscountId");
+
+                    b.HasIndex("ServiceId");
+
+                    b.ToTable("Purchases");
                 });
 
             modelBuilder.Entity("TelecommunicationWebApp.Domain.Service", b =>
@@ -307,6 +420,46 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.UserColor", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("UserId", "ColorId");
+
+                    b.HasIndex("ColorId");
+
+                    b.ToTable("UsersColors");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.UserUseCase", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UseCaseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserId", "UseCaseId");
+
+                    b.ToTable("UserUseCases");
+                });
+
             modelBuilder.Entity("TelecommunicationWebApp.Domain.Address", b =>
                 {
                     b.HasOne("TelecommunicationWebApp.Domain.City", "City")
@@ -324,6 +477,62 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.Navigation("City");
 
                     b.Navigation("State");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Employee", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.User", "User")
+                        .WithOne("Employee")
+                        .HasForeignKey("TelecommunicationWebApp.Domain.Employee", "UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.IssuedDiscount", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.User", "Customer")
+                        .WithMany("RecievedDiscounts")
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TelecommunicationWebApp.Domain.Employee", "Employee")
+                        .WithMany("GivenDiscounts")
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Purchase", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.User", "Customer")
+                        .WithMany("Purchases")
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TelecommunicationWebApp.Domain.IssuedDiscount", "Discount")
+                        .WithMany("Purchases")
+                        .HasForeignKey("DiscountId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("TelecommunicationWebApp.Domain.Service", "Service")
+                        .WithMany("Purchases")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Discount");
+
+                    b.Navigation("Service");
                 });
 
             modelBuilder.Entity("TelecommunicationWebApp.Domain.User", b =>
@@ -352,6 +561,36 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.Navigation("Spouse");
                 });
 
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.UserColor", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.Color", "Color")
+                        .WithMany("UsersFavorite")
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TelecommunicationWebApp.Domain.User", "User")
+                        .WithMany("FavoriteColors")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Color");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.UserUseCase", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.User", "User")
+                        .WithMany("UseCases")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("TelecommunicationWebApp.Domain.Address", b =>
                 {
                     b.Navigation("HomeUsers");
@@ -364,6 +603,26 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.Navigation("Addresses");
                 });
 
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Color", b =>
+                {
+                    b.Navigation("UsersFavorite");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Employee", b =>
+                {
+                    b.Navigation("GivenDiscounts");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.IssuedDiscount", b =>
+                {
+                    b.Navigation("Purchases");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Service", b =>
+                {
+                    b.Navigation("Purchases");
+                });
+
             modelBuilder.Entity("TelecommunicationWebApp.Domain.State", b =>
                 {
                     b.Navigation("Addresses");
@@ -371,7 +630,17 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
 
             modelBuilder.Entity("TelecommunicationWebApp.Domain.User", b =>
                 {
+                    b.Navigation("Employee");
+
+                    b.Navigation("FavoriteColors");
+
+                    b.Navigation("Purchases");
+
+                    b.Navigation("RecievedDiscounts");
+
                     b.Navigation("SpouseUsers");
+
+                    b.Navigation("UseCases");
                 });
 #pragma warning restore 612, 618
         }
