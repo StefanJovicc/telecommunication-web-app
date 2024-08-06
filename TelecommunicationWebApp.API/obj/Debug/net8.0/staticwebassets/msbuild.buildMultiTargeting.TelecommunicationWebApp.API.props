@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TelecommunicationWebApp.API.props" />
+</Project>

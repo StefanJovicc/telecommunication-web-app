@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lpqzsmWdkBcli6tIbfTGFFzIsz+kT4N4kbOkuaByKD8=",
+  "Source": "TelecommunicationWebApp.API",
+  "BasePath": "_content/TelecommunicationWebApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

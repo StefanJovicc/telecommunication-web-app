@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelecommunicationWebApp.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelecommunicationWebApp.Application", "..\TelecommunicationWebApp.Application\TelecommunicationWebApp.Application.csproj", "{F0C241E5-D7A0-4D89-B7C0-62E11054DB46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecommunicationWebApp.Implementation", "..\TelecommunicationWebApp.Implementation\TelecommunicationWebApp.Implementation.csproj", "{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelecommunicationWebApp.Implementation", "..\TelecommunicationWebApp.Implementation\TelecommunicationWebApp.Implementation.csproj", "{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecommunicationWebApp.API", "..\TelecommunicationWebApp.API\TelecommunicationWebApp.API.csproj", "{4B39F55B-A239-485D-9E3B-E9E179E4B80C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B39F55B-A239-485D-9E3B-E9E179E4B80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B39F55B-A239-485D-9E3B-E9E179E4B80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B39F55B-A239-485D-9E3B-E9E179E4B80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B39F55B-A239-485D-9E3B-E9E179E4B80C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
