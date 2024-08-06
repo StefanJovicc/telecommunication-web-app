@@ -15,7 +15,7 @@ namespace TelecommunicationWebApp.DataAccess.Configurations
         {
             builder.Property(x => x.Fullname)
                    .IsRequired()
-                   .HasMaxLength(20);
+                   .HasMaxLength(60);
 
             builder.Property(x => x.UseCaseName)
                    .IsRequired()

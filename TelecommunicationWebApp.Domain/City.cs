@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace TelecommunicationWebApp.Domain
 {
-    public class Role : Entity
+    public class City : Entity
     {
         public string Name { get; set; }
+
+        public ICollection<Address> Addresses { get; set; } = new HashSet<Address>();
     }
 }

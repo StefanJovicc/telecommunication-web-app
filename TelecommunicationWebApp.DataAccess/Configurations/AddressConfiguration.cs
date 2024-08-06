@@ -14,18 +14,22 @@ namespace TelecommunicationWebApp.DataAccess.Configurations
         public void Configure(EntityTypeBuilder<Address> builder)
         {
             builder.Property(x => x.Street)
-                   .IsRequired();
-
-            builder.Property(x => x.City)
-                   .IsRequired();
-
-            builder.Property(x => x.State)
-                   .HasMaxLength(2)
-                   .IsRequired();
+                   .IsRequired()
+                   .HasMaxLength(100);
 
             builder.Property(x => x.Zip)
-                   .HasMaxLength(5)
-                   .IsRequired();
+                   .IsRequired()
+                   .HasMaxLength(5);
+
+            builder.HasOne(x => x.City)
+                   .WithMany(x => x.Addresses)
+                   .HasForeignKey(x => x.CityId)
+                   .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne(x => x.State)
+                   .WithMany(x => x.Addresses)
+                   .HasForeignKey(x => x.StateId)
+                   .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

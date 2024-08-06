@@ -34,6 +34,13 @@ namespace TelecommunicationWebApp.DataAccess
         {
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
 
+            // Configuring self-referencing Users (users who have spouses)
+            modelBuilder.Entity<User>()
+                        .HasOne(u => u.Spouse)
+                        .WithMany(u => u.SpouseUsers)
+                        .HasForeignKey(u => u.SpouseId)
+                        .OnDelete(DeleteBehavior.Restrict);
+
             base.OnModelCreating(modelBuilder);
         }
 
@@ -64,10 +71,13 @@ namespace TelecommunicationWebApp.DataAccess
             return base.SaveChanges();
         }
 
-        public DbSet<Role> Roles {  get; set; }
-        public DbSet<Address> Addresses { get; set; }
-        public DbSet<Service> Services { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<State> States { get; set; }
+        public DbSet<Color> Colors { get; set; }
         public DbSet<ErrorLog> ErrorLogs { get; set; }
         public DbSet<UseCaseLog> UseCaseLogs { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

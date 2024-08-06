@@ -16,7 +16,7 @@ namespace TelecommunicationWebApp.DataAccess.Configurations
             builder.Property(x => x.Message)
                    .IsRequired();
 
-            builder.Property(x => x.StackTrace)
+            builder.Property(x => x.StrackTrace)
                    .IsRequired();
 
             builder.HasKey(x => x.ErrorId);

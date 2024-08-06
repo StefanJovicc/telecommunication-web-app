@@ -30,9 +30,8 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -43,14 +42,13 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("State")
-                        .IsRequired()
-                        .HasMaxLength(2)
-                        .HasColumnType("nvarchar(2)");
+                    b.Property<int>("StateId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Street")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Zip")
                         .IsRequired()
@@ -59,32 +57,44 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CityId");
+
+                    b.HasIndex("StateId");
+
                     b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("TelecommunicationWebApp.Domain.ErrorLog", b =>
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.City", b =>
                 {
-                    b.Property<Guid>("ErrorId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
 
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("StackTrace")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Time")
+                    b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ErrorId");
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
-                    b.ToTable("ErrorLogs");
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Cities");
                 });
 
-            modelBuilder.Entity("TelecommunicationWebApp.Domain.Role", b =>
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Color", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -111,7 +121,29 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Roles");
+                    b.ToTable("Colors");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.ErrorLog", b =>
+                {
+                    b.Property<Guid>("ErrorId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StrackTrace")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ErrorId");
+
+                    b.ToTable("ErrorLogs");
                 });
 
             modelBuilder.Entity("TelecommunicationWebApp.Domain.Service", b =>
@@ -127,8 +159,7 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -138,7 +169,8 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -149,6 +181,36 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                         .IsUnique();
 
                     b.ToTable("Services");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.State", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("States");
                 });
 
             modelBuilder.Entity("TelecommunicationWebApp.Domain.UseCaseLog", b =>
@@ -164,8 +226,8 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
 
                     b.Property<string>("Fullname")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<string>("UseCaseData")
                         .HasColumnType("nvarchar(max)");
@@ -182,6 +244,134 @@ namespace TelecommunicationWebApp.DataAccess.Migrations
                     SqlServerIndexBuilderExtensions.IncludeProperties(b.HasIndex("Fullname", "UseCaseName", "ExecutedAt"), new[] { "UseCaseData" });
 
                     b.ToTable("UseCaseLogs");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fullname")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<int>("HomeId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("OfficeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SocialSecurityNumber")
+                        .IsRequired()
+                        .HasMaxLength(9)
+                        .HasColumnType("nvarchar(9)");
+
+                    b.Property<int?>("SpouseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HomeId");
+
+                    b.HasIndex("OfficeId");
+
+                    b.HasIndex("SpouseId");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Address", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.City", "City")
+                        .WithMany("Addresses")
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TelecommunicationWebApp.Domain.State", "State")
+                        .WithMany("Addresses")
+                        .HasForeignKey("StateId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("City");
+
+                    b.Navigation("State");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.User", b =>
+                {
+                    b.HasOne("TelecommunicationWebApp.Domain.Address", "Home")
+                        .WithMany("HomeUsers")
+                        .HasForeignKey("HomeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TelecommunicationWebApp.Domain.Address", "Office")
+                        .WithMany("OfficeUsers")
+                        .HasForeignKey("OfficeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TelecommunicationWebApp.Domain.User", "Spouse")
+                        .WithMany("SpouseUsers")
+                        .HasForeignKey("SpouseId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("Home");
+
+                    b.Navigation("Office");
+
+                    b.Navigation("Spouse");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.Address", b =>
+                {
+                    b.Navigation("HomeUsers");
+
+                    b.Navigation("OfficeUsers");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.City", b =>
+                {
+                    b.Navigation("Addresses");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.State", b =>
+                {
+                    b.Navigation("Addresses");
+                });
+
+            modelBuilder.Entity("TelecommunicationWebApp.Domain.User", b =>
+                {
+                    b.Navigation("SpouseUsers");
                 });
 #pragma warning restore 612, 618
         }

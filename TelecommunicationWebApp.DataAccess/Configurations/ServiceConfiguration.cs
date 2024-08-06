@@ -14,10 +14,10 @@ namespace TelecommunicationWebApp.DataAccess.Configurations
         public void Configure(EntityTypeBuilder<Service> builder)
         {
             builder.Property(x => x.Name)
-                   .IsRequired();
+                   .IsRequired()
+                   .HasMaxLength(60);
 
             builder.Property(x => x.Description)
-                   .HasMaxLength(150)
                    .IsRequired();
 
             builder.Property(x => x.Price)

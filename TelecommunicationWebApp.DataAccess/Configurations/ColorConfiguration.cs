@@ -9,13 +9,13 @@ using TelecommunicationWebApp.Domain;
 
 namespace TelecommunicationWebApp.DataAccess.Configurations
 {
-    public class RoleConfiguration : IEntityTypeConfiguration<Role>
+    public class ColorConfiguration : IEntityTypeConfiguration<Color>
     {
-        public void Configure(EntityTypeBuilder<Role> builder)
+        public void Configure(EntityTypeBuilder<Color> builder)
         {
             builder.Property(x => x.Name)
-                   .HasMaxLength(30)
-                   .IsRequired();
+                   .IsRequired()
+                   .HasMaxLength(30);
 
             builder.HasIndex(x => x.Name)
                    .IsUnique();

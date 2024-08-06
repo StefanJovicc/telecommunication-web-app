@@ -10,7 +10,7 @@ namespace TelecommunicationWebApp.Domain
     {
         public Guid ErrorId { get; set; }
         public string Message { get; set; }
-        public string StackTrace { get; set; }
+        public string StrackTrace { get; set; }
         public DateTime Time { get; set; }
     }
 }
