@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}|..\\TelecommunicationWebApp.Implementation\\TelecommunicationWebApp.Implementation.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.implementation\\logging\\usecases\\consoleusecaselogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}|..\\TelecommunicationWebApp.Implementation\\TelecommunicationWebApp.Implementation.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.implementation\\usecasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAB0B81-B750-461F-B7EA-F4A4CFD34FB4}|..\\TelecommunicationWebApp.Implementation\\TelecommunicationWebApp.Implementation.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.implementation\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C241E5-D7A0-4D89-B7C0-62E11054DB46}|..\\TelecommunicationWebApp.Application\\TelecommunicationWebApp.Application.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.application\\iusecaselogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0C241E5-D7A0-4D89-B7C0-62E11054DB46}|..\\TelecommunicationWebApp.Application\\TelecommunicationWebApp.Application.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.application\\iapplicationactorprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,19 +40,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConsoleUseCaseLogger.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\Logging\\UseCases\\ConsoleUseCaseLogger.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Implementation\\Logging\\UseCases\\ConsoleUseCaseLogger.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\Logging\\UseCases\\ConsoleUseCaseLogger.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.Implementation\\Logging\\UseCases\\ConsoleUseCaseLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:18:04.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnauthorizedException.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\Exceptions\\UnauthorizedException.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Implementation\\Exceptions\\UnauthorizedException.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\Exceptions\\UnauthorizedException.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.Implementation\\Exceptions\\UnauthorizedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:16:32.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UseCaseHandler.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\UseCaseHandler.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Implementation\\UseCaseHandler.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\UseCaseHandler.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.Implementation\\UseCaseHandler.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAASwEIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:10:37.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUseCaseLogger.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IUseCaseLogger.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Application\\IUseCaseLogger.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IUseCaseLogger.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.Application\\IUseCaseLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:09:25.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IApplicationActorProvider.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IApplicationActorProvider.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Application\\IApplicationActorProvider.cs",
               "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IApplicationActorProvider.cs",
               "RelativeToolTip": "..\\TelecommunicationWebApp.Application\\IApplicationActorProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T19:20:05.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IApplicationActor.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IApplicationActor.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Application\\IApplicationActor.cs",
@@ -53,20 +117,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
               "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\User.cs",
               "RelativeToolTip": "User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAABSwA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T05:01:04.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TelecommunicationContext.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\TelecommunicationContext.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\TelecommunicationContext.cs",
