@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TelecommunicationWebApp.DataAccess;
 
@@ -11,9 +12,11 @@ using TelecommunicationWebApp.DataAccess;
 namespace TelecommunicationWebApp.DataAccess.Migrations
 {
     [DbContext(typeof(TelecommunicationContext))]
-    partial class TelecommunicationContextModelSnapshot : ModelSnapshot
+    [Migration("20240807135704_Fixed_SSN_Limit")]
+    partial class Fixed_SSN_Limit
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

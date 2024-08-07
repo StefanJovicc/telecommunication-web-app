@@ -25,7 +25,7 @@ namespace TelecommunicationWebApp.DataAccess.Configurations
 
             builder.Property(x => x.SocialSecurityNumber)
                    .IsRequired()
-                   .HasMaxLength(9);
+                   .HasMaxLength(11);
 
             builder.Property(x => x.DateOfBirth)
                    .IsRequired();

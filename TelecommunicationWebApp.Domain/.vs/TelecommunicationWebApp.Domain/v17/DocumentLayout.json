@@ -3,38 +3,41 @@
   "WorkspaceRootPath": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\controllers\\initialdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\controllers\\initialdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\dto\\authrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\userusecaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\usercolorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\telecommunicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\issueddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:issueddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\usercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:usercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\issueddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:issueddiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\migrations\\20240806204952_finished_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -44,14 +47,7 @@
       "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\userusecaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\extensions\\containerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,14 +60,7 @@
       "AbsoluteMoniker": "D:0:0:{4B39F55B-A239-485D-9E3B-E9E179E4B80C}|..\\TelecommunicationWebApp.API\\TelecommunicationWebApp.API.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.api\\core\\jwttokencreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.domain\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D724F6-E928-487B-AF3B-71F551929176}|TelecommunicationWebApp.Domain.csproj|solutionrelative:userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB812AC3-D1B9-44BE-878D-6CDB11302D23}|..\\TelecommunicationWebApp.DataAccess\\TelecommunicationWebApp.DataAccess.csproj|d:\\users\\stefan\\visualstudiorepos\\comtrade_test\\project\\telecommunicationwebapp.dataaccess\\configurations\\addressconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -120,37 +109,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InitialDataController.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T07:04:45.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthResponseDTO.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T07:02:48.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AuthRequestDTO.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\DTO\\AuthRequestDTO.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\DTO\\AuthRequestDTO.cs",
@@ -164,27 +127,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwB8AAAATAAAA",
+              "Title": "InitialDataController.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.API\\Controllers\\InitialDataController.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAAAAAMkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T00:38:16.557Z",
+              "WhenOpened": "2024-08-07T07:04:45.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserColorConfiguration.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
+              "DocumentIndex": 3,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwBsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:55:00.819Z"
+              "WhenOpened": "2024-08-06T18:02:24.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserUseCaseConfiguration.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T19:37:38.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -196,47 +173,38 @@
               "RelativeToolTip": "Color.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:53:45.203Z"
+              "WhenOpened": "2024-08-06T20:53:45.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserColor.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\UserColor.cs",
-              "RelativeDocumentMoniker": "UserColor.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\UserColor.cs",
-              "RelativeToolTip": "UserColor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "DocumentIndex": 6,
+              "Title": "UserColorConfiguration.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserColorConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:51:37.158Z"
+              "WhenOpened": "2024-08-06T20:55:00.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240806204952_Finished_Database.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "UserUseCase.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\UserUseCase.cs",
+              "RelativeDocumentMoniker": "UserUseCase.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\UserUseCase.cs",
+              "RelativeToolTip": "UserUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:49:53.191Z"
+              "WhenOpened": "2024-08-06T19:36:04.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IssuedDiscount.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\IssuedDiscount.cs",
-              "RelativeDocumentMoniker": "IssuedDiscount.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\IssuedDiscount.cs",
-              "RelativeToolTip": "IssuedDiscount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:38:47.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Purchase.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\Purchase.cs",
               "RelativeDocumentMoniker": "Purchase.cs",
@@ -244,7 +212,21 @@
               "RelativeToolTip": "Purchase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:31:26.075Z"
+              "WhenOpened": "2024-08-06T20:31:26.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA2wB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T00:38:16.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -260,32 +242,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserUseCaseConfiguration.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserUseCaseConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAtAAAA",
+              "DocumentIndex": 10,
+              "Title": "IssuedDiscount.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\IssuedDiscount.cs",
+              "RelativeDocumentMoniker": "IssuedDiscount.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\IssuedDiscount.cs",
+              "RelativeToolTip": "IssuedDiscount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:37:38.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AQIAAA8AAAAA/P////8XwBwAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:58:44.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T20:38:47.725Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "20240806204952_Finished_Database.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806204952_Finished_Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T20:49:53.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthResponseDTO.cs",
+              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
+              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
+              "RelativeToolTip": "..\\TelecommunicationWebApp.API\\DTO\\AuthResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:02:48.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\Service.cs",
               "RelativeDocumentMoniker": "Service.cs",
@@ -297,19 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TelecommunicationContext.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\TelecommunicationContext.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\TelecommunicationContext.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\TelecommunicationContext.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\TelecommunicationContext.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAywFQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:46:37.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\Employee.cs",
               "RelativeDocumentMoniker": "Employee.cs",
@@ -321,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "JwtTokenCreator.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Core\\JwtTokenCreator.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\Core\\JwtTokenCreator.cs",
@@ -333,19 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwCsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T18:02:24.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "EmployeeConfiguration.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\EmployeeConfiguration.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\EmployeeConfiguration.cs",
@@ -357,19 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserUseCase.cs",
-              "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\UserUseCase.cs",
-              "RelativeDocumentMoniker": "UserUseCase.cs",
-              "ToolTip": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\UserUseCase.cs",
-              "RelativeToolTip": "UserUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:36:04.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "AddressConfiguration.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\AddressConfiguration.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\AddressConfiguration.cs",
@@ -381,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.API\\Program.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.API\\Program.cs",
@@ -393,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "State.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\State.cs",
               "RelativeDocumentMoniker": "State.cs",
@@ -405,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 29,
               "Title": "20240806185023_Updated_Tables.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806185023_Updated_Tables.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Migrations\\20240806185023_Updated_Tables.cs",
@@ -417,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "City.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\City.cs",
               "RelativeDocumentMoniker": "City.cs",
@@ -429,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "Address.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Domain\\Address.cs",
               "RelativeDocumentMoniker": "Address.cs",
@@ -441,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "ServiceConfiguration.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.DataAccess\\Configurations\\ServiceConfiguration.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.DataAccess\\Configurations\\ServiceConfiguration.cs",
@@ -453,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "ConsoleUseCaseLogger.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\Logging\\UseCases\\ConsoleUseCaseLogger.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Implementation\\Logging\\UseCases\\ConsoleUseCaseLogger.cs",
@@ -465,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "UseCaseHandler.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\UseCaseHandler.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Implementation\\UseCaseHandler.cs",
@@ -477,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "IUseCaseLogger.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IUseCaseLogger.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Application\\IUseCaseLogger.cs",
@@ -489,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "IApplicationActorProvider.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IApplicationActorProvider.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Application\\IApplicationActorProvider.cs",
@@ -501,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "IApplicationActor.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Application\\IApplicationActor.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Application\\IApplicationActor.cs",
@@ -513,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "UnauthorizedException.cs",
               "DocumentMoniker": "D:\\Users\\Stefan\\VisualStudioRepos\\COMTRADE_TEST\\Project\\TelecommunicationWebApp.Implementation\\Exceptions\\UnauthorizedException.cs",
               "RelativeDocumentMoniker": "..\\TelecommunicationWebApp.Implementation\\Exceptions\\UnauthorizedException.cs",
