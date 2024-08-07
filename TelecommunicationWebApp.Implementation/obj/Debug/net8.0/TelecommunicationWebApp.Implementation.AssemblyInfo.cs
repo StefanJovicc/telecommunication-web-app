@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelecommunicationWebApp.Implementation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c20c3fb9e274be9e3f3670a5268252cdab2d4f73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaaf52b0192695af4b482ed90e790cdd25658021")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelecommunicationWebApp.Implementation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelecommunicationWebApp.Implementation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

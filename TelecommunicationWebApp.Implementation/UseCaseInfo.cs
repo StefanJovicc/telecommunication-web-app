@@ -23,6 +23,6 @@ namespace TelecommunicationWebApp.Implementation
 
         // I need to update this part every time I add new use case
         // Could be better if used reflexions instead maybe? (maybe even database?)
-        public static int MaxUseCaseId => 0;
+        public static int MaxUseCaseId => 1;
     }
 }

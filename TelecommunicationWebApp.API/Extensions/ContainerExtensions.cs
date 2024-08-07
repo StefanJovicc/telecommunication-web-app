@@ -1,7 +1,10 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using TelecommunicationWebApp.Application;
+using TelecommunicationWebApp.Application.UseCases.Commands.IssueDiscount;
 using TelecommunicationWebApp.Implementation;
 using TelecommunicationWebApp.Implementation.Logging.UseCases;
+using TelecommunicationWebApp.Implementation.UseCases.Commands.IssueDiscount;
+using TelecommunicationWebApp.Implementation.Validators.IssueDiscount;
 
 namespace TelecommunicationWebApp.API.Extensions
 {
@@ -9,6 +12,8 @@ namespace TelecommunicationWebApp.API.Extensions
     {
         public static void AddUseCases(this IServiceCollection services)
         {
+            services.AddTransient<IIssueDiscountCommand, IssueDiscountCommand>();
+            services.AddTransient<IssueDiscountDTOValidator>();
             // Add every use case and validator
             services.AddTransient<UseCaseHandler>();
             services.AddTransient<IUseCaseLogger, SPUseCaseLogger>();

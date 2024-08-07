@@ -153,6 +153,7 @@ namespace TelecommunicationWebApp.API.Controllers
                                                                                  .Select(x => x.Id)
                                                                                  .FirstOrDefault() : null),
                         Age = (int)person.Result.Age,
+                        UseCases = { }
                     };
 
                     _context.Users.Add(newUser);
@@ -204,6 +205,39 @@ namespace TelecommunicationWebApp.API.Controllers
 
             _context.SaveChanges();
 
+            // Services
+            Service service1 = new Service
+            {
+                Name = "Mobile service #1",
+                Description = "Sample mobile service description",
+                Price = 100m
+            };
+            Service service2 = new Service
+            {
+                Name = "Internet service #2",
+                Description = "Sample internet service description",
+                Price = 200m
+            };
+            Service service3 = new Service
+            {
+                Name = "TV service #3",
+                Description = "Sample TV service description",
+                Price = 300m
+            };
+
+            _context.Services.AddRange(service1, service2, service3);
+            _context.SaveChanges();
+
+            // Use Cases
+
+            UserUseCase userUseCase = new UserUseCase
+            {
+                UseCaseId = 1,
+                UserId = 101
+            };
+
+            _context.UserUseCases.Add(userUseCase);
+            _context.SaveChanges();
 
             string ConvertToEmail(string name)
             {

@@ -33,7 +33,6 @@ namespace TelecommunicationWebApp.API.Core
 
             var actor = new Actor
             {
-                Email = claims.First(x => x.Type == "Email").Value,
                 Fullname = claims.First(x => x.Type == "Fullname").Value,
                 Id = int.Parse(claims.First(x => x.Type == "Id").Value),
                 AllowedUseCases = JsonConvert.DeserializeObject<List<int>>(claims.First(x => x.Type == "UseCaseIds").Value)
